@@ -1,0 +1,6 @@
+framework module Pods_65CircuitWeaver {
+  umbrella header "Pods-65CircuitWeaver-umbrella.h"
+
+  export *
+  module * { export * }
+}

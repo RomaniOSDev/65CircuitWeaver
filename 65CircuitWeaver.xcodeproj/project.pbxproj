@@ -3,15 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
 		740292882F228B300027E363 /* 65CircuitWeaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 65CircuitWeaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9552F88DE2292CA779715D06 /* Pods-65CircuitWeaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-65CircuitWeaver.release.xcconfig"; path = "Target Support Files/Pods-65CircuitWeaver/Pods-65CircuitWeaver.release.xcconfig"; sourceTree = "<group>"; };
+		B9C96A49BE1764FF5084CDCA /* Pods-65CircuitWeaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-65CircuitWeaver.debug.xcconfig"; path = "Target Support Files/Pods-65CircuitWeaver/Pods-65CircuitWeaver.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A5C9B2426D8C3C83FE0F46 /* Pods_65CircuitWeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_65CircuitWeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7402929A2F228B310027E363 /* Exceptions for "65CircuitWeaver" folder in "65CircuitWeaver" target */ = {
+		740292C22F228B610027E363 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,14 +24,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7402928A2F228B300027E363 /* 65CircuitWeaver */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7402929A2F228B310027E363 /* Exceptions for "65CircuitWeaver" folder in "65CircuitWeaver" target */,
-			);
-			path = 65CircuitWeaver;
-			sourceTree = "<group>";
-		};
+		740292BA2F228B610027E363 /* 65CircuitWeaver */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (740292C22F228B610027E363 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 65CircuitWeaver; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,11 +38,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		097E4DC72CB86552A3628D84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9C96A49BE1764FF5084CDCA /* Pods-65CircuitWeaver.debug.xcconfig */,
+				9552F88DE2292CA779715D06 /* Pods-65CircuitWeaver.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1A2A7A4FFB76B033CC8C384E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7A5C9B2426D8C3C83FE0F46 /* Pods_65CircuitWeaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7402927F2F228B300027E363 = {
 			isa = PBXGroup;
 			children = (
-				7402928A2F228B300027E363 /* 65CircuitWeaver */,
+				740292BA2F228B610027E363 /* 65CircuitWeaver */,
 				740292892F228B300027E363 /* Products */,
+				097E4DC72CB86552A3628D84 /* Pods */,
+				1A2A7A4FFB76B033CC8C384E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +80,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7402929B2F228B310027E363 /* Build configuration list for PBXNativeTarget "65CircuitWeaver" */;
 			buildPhases = (
+				AD26414C7E84634986176359 /* [CP] Check Pods Manifest.lock */,
 				740292842F228B300027E363 /* Sources */,
 				740292852F228B300027E363 /* Frameworks */,
 				740292862F228B300027E363 /* Resources */,
@@ -74,11 +90,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7402928A2F228B300027E363 /* 65CircuitWeaver */,
+				740292BA2F228B610027E363 /* 65CircuitWeaver */,
 			);
 			name = 65CircuitWeaver;
-			packageProductDependencies = (
-			);
 			productName = 65CircuitWeaver;
 			productReference = 740292882F228B300027E363 /* 65CircuitWeaver.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +113,7 @@
 				};
 			};
 			buildConfigurationList = 740292832F228B300027E363 /* Build configuration list for PBXProject "65CircuitWeaver" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +121,6 @@
 				Base,
 			);
 			mainGroup = 7402927F2F228B300027E363;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 740292892F228B300027E363 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +140,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AD26414C7E84634986176359 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-65CircuitWeaver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		740292842F228B300027E363 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +178,7 @@
 /* Begin XCBuildConfiguration section */
 		7402929C2F228B310027E363 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C96A49BE1764FF5084CDCA /* Pods-65CircuitWeaver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -150,8 +189,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -160,17 +200,22 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-5CircuitWeaver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7402929D2F228B310027E363 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9552F88DE2292CA779715D06 /* Pods-65CircuitWeaver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -181,8 +226,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -191,12 +237,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-5CircuitWeaver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
