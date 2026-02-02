@@ -3,29 +3,87 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		7434A8242F310C5100F9C75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7434A81A2F310C5100F9C75B /* Assets.xcassets */; };
+		7434A8262F310C5100F9C75B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7434A81E2F310C5100F9C75B /* LaunchScreen.storyboard */; };
+		7434A8272F310C5100F9C75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7434A8202F310C5100F9C75B /* Main.storyboard */; };
+		7434A8282F310C5100F9C75B /* CircuitDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7F72F310C5100F9C75B /* CircuitDataManager.swift */; };
+		7434A8292F310C5100F9C75B /* CircuitDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7F82F310C5100F9C75B /* CircuitDataModel.swift */; };
+		7434A82A2F310C5100F9C75B /* CircuitEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7FA2F310C5100F9C75B /* CircuitEngine.swift */; };
+		7434A82B2F310C5100F9C75B /* Color+CircuitWeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7FC2F310C5100F9C75B /* Color+CircuitWeaver.swift */; };
+		7434A82C2F310C5100F9C75B /* Achievements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7FE2F310C5100F9C75B /* Achievements.swift */; };
+		7434A82D2F310C5100F9C75B /* CircuitModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7FF2F310C5100F9C75B /* CircuitModels.swift */; };
+		7434A82E2F310C5100F9C75B /* ExerciseLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8002F310C5100F9C75B /* ExerciseLibrary.swift */; };
+		7434A82F2F310C5100F9C75B /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8012F310C5100F9C75B /* Station.swift */; };
+		7434A8302F310C5100F9C75B /* TrainingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8022F310C5100F9C75B /* TrainingHistory.swift */; };
+		7434A8312F310C5100F9C75B /* TrainingProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8032F310C5100F9C75B /* TrainingProgram.swift */; };
+		7434A8322F310C5100F9C75B /* CircuitWeaverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8052F310C5100F9C75B /* CircuitWeaverViewModel.swift */; };
+		7434A8332F310C5100F9C75B /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8072F310C5100F9C75B /* CheckLink.swift */; };
+		7434A8342F310C5100F9C75B /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8082F310C5100F9C75B /* InternetViewController.swift */; };
+		7434A8352F310C5100F9C75B /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8092F310C5100F9C75B /* LoaderViewController.swift */; };
+		7434A8362F310C5100F9C75B /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A80B2F310C5100F9C75B /* AchievementsView.swift */; };
+		7434A8372F310C5100F9C75B /* CircuitAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A80C2F310C5100F9C75B /* CircuitAnalysisView.swift */; };
+		7434A8382F310C5100F9C75B /* CircuitExecutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A80D2F310C5100F9C75B /* CircuitExecutionView.swift */; };
+		7434A8392F310C5100F9C75B /* CircuitWeaverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A80E2F310C5100F9C75B /* CircuitWeaverView.swift */; };
+		7434A83A2F310C5100F9C75B /* ExerciseLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A80F2F310C5100F9C75B /* ExerciseLibraryView.swift */; };
+		7434A83B2F310C5100F9C75B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8102F310C5100F9C75B /* HomeView.swift */; };
+		7434A83C2F310C5100F9C75B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8112F310C5100F9C75B /* MainTabView.swift */; };
+		7434A83D2F310C5100F9C75B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8122F310C5100F9C75B /* OnboardingView.swift */; };
+		7434A83E2F310C5100F9C75B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8132F310C5100F9C75B /* SettingsView.swift */; };
+		7434A83F2F310C5100F9C75B /* SpaceBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8142F310C5100F9C75B /* SpaceBuilderView.swift */; };
+		7434A8402F310C5100F9C75B /* SpaceLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8152F310C5100F9C75B /* SpaceLibraryView.swift */; };
+		7434A8412F310C5100F9C75B /* TrainingHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8162F310C5100F9C75B /* TrainingHistoryView.swift */; };
+		7434A8422F310C5100F9C75B /* TrainingProgramsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8172F310C5100F9C75B /* TrainingProgramsView.swift */; };
+		7434A8432F310C5100F9C75B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8192F310C5100F9C75B /* AppDelegate.swift */; };
+		7434A8442F310C5100F9C75B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A81B2F310C5100F9C75B /* ContentView.swift */; };
+		7434A8452F310C5100F9C75B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8212F310C5100F9C75B /* SceneDelegate.swift */; };
+		7434A8462F310C5100F9C75B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8222F310C5100F9C75B /* ViewController.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		740292882F228B300027E363 /* 65CircuitWeaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 65CircuitWeaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7434A7F72F310C5100F9C75B /* CircuitDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitDataManager.swift; sourceTree = "<group>"; };
+		7434A7F82F310C5100F9C75B /* CircuitDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitDataModel.swift; sourceTree = "<group>"; };
+		7434A7FA2F310C5100F9C75B /* CircuitEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitEngine.swift; sourceTree = "<group>"; };
+		7434A7FC2F310C5100F9C75B /* Color+CircuitWeaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+CircuitWeaver.swift"; sourceTree = "<group>"; };
+		7434A7FE2F310C5100F9C75B /* Achievements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievements.swift; sourceTree = "<group>"; };
+		7434A7FF2F310C5100F9C75B /* CircuitModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitModels.swift; sourceTree = "<group>"; };
+		7434A8002F310C5100F9C75B /* ExerciseLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseLibrary.swift; sourceTree = "<group>"; };
+		7434A8012F310C5100F9C75B /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		7434A8022F310C5100F9C75B /* TrainingHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingHistory.swift; sourceTree = "<group>"; };
+		7434A8032F310C5100F9C75B /* TrainingProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingProgram.swift; sourceTree = "<group>"; };
+		7434A8052F310C5100F9C75B /* CircuitWeaverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitWeaverViewModel.swift; sourceTree = "<group>"; };
+		7434A8072F310C5100F9C75B /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		7434A8082F310C5100F9C75B /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		7434A8092F310C5100F9C75B /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		7434A80B2F310C5100F9C75B /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		7434A80C2F310C5100F9C75B /* CircuitAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitAnalysisView.swift; sourceTree = "<group>"; };
+		7434A80D2F310C5100F9C75B /* CircuitExecutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitExecutionView.swift; sourceTree = "<group>"; };
+		7434A80E2F310C5100F9C75B /* CircuitWeaverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitWeaverView.swift; sourceTree = "<group>"; };
+		7434A80F2F310C5100F9C75B /* ExerciseLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseLibraryView.swift; sourceTree = "<group>"; };
+		7434A8102F310C5100F9C75B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7434A8112F310C5100F9C75B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		7434A8122F310C5100F9C75B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7434A8132F310C5100F9C75B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7434A8142F310C5100F9C75B /* SpaceBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceBuilderView.swift; sourceTree = "<group>"; };
+		7434A8152F310C5100F9C75B /* SpaceLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceLibraryView.swift; sourceTree = "<group>"; };
+		7434A8162F310C5100F9C75B /* TrainingHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingHistoryView.swift; sourceTree = "<group>"; };
+		7434A8172F310C5100F9C75B /* TrainingProgramsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingProgramsView.swift; sourceTree = "<group>"; };
+		7434A8192F310C5100F9C75B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7434A81A2F310C5100F9C75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7434A81B2F310C5100F9C75B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7434A81C2F310C5100F9C75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7434A81D2F310C5100F9C75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7434A81F2F310C5100F9C75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7434A8212F310C5100F9C75B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7434A8222F310C5100F9C75B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9552F88DE2292CA779715D06 /* Pods-65CircuitWeaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-65CircuitWeaver.release.xcconfig"; path = "Target Support Files/Pods-65CircuitWeaver/Pods-65CircuitWeaver.release.xcconfig"; sourceTree = "<group>"; };
 		B9C96A49BE1764FF5084CDCA /* Pods-65CircuitWeaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-65CircuitWeaver.debug.xcconfig"; path = "Target Support Files/Pods-65CircuitWeaver/Pods-65CircuitWeaver.debug.xcconfig"; sourceTree = "<group>"; };
 		D7A5C9B2426D8C3C83FE0F46 /* Pods_65CircuitWeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_65CircuitWeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		740292C22F228B610027E363 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 740292872F228B300027E363 /* 65CircuitWeaver */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		740292BA2F228B610027E363 /* 65CircuitWeaver */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (740292C22F228B610027E363 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 65CircuitWeaver; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		740292852F228B300027E363 /* Frameworks */ = {
@@ -58,7 +116,7 @@
 		7402927F2F228B300027E363 = {
 			isa = PBXGroup;
 			children = (
-				740292BA2F228B610027E363 /* 65CircuitWeaver */,
+				7434A8232F310C5100F9C75B /* 65CircuitWeaver */,
 				740292892F228B300027E363 /* Products */,
 				097E4DC72CB86552A3628D84 /* Pods */,
 				1A2A7A4FFB76B033CC8C384E /* Frameworks */,
@@ -71,6 +129,104 @@
 				740292882F228B300027E363 /* 65CircuitWeaver.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7434A7F92F310C5100F9C75B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7434A7F72F310C5100F9C75B /* CircuitDataManager.swift */,
+				7434A7F82F310C5100F9C75B /* CircuitDataModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7434A7FB2F310C5100F9C75B /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				7434A7FA2F310C5100F9C75B /* CircuitEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		7434A7FD2F310C5100F9C75B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7434A7FC2F310C5100F9C75B /* Color+CircuitWeaver.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7434A8042F310C5100F9C75B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7434A7FE2F310C5100F9C75B /* Achievements.swift */,
+				7434A7FF2F310C5100F9C75B /* CircuitModels.swift */,
+				7434A8002F310C5100F9C75B /* ExerciseLibrary.swift */,
+				7434A8012F310C5100F9C75B /* Station.swift */,
+				7434A8022F310C5100F9C75B /* TrainingHistory.swift */,
+				7434A8032F310C5100F9C75B /* TrainingProgram.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7434A8062F310C5100F9C75B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7434A8052F310C5100F9C75B /* CircuitWeaverViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7434A80A2F310C5100F9C75B /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				7434A8072F310C5100F9C75B /* CheckLink.swift */,
+				7434A8082F310C5100F9C75B /* InternetViewController.swift */,
+				7434A8092F310C5100F9C75B /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		7434A8182F310C5100F9C75B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7434A80A2F310C5100F9C75B /* LoadingView */,
+				7434A80B2F310C5100F9C75B /* AchievementsView.swift */,
+				7434A80C2F310C5100F9C75B /* CircuitAnalysisView.swift */,
+				7434A80D2F310C5100F9C75B /* CircuitExecutionView.swift */,
+				7434A80E2F310C5100F9C75B /* CircuitWeaverView.swift */,
+				7434A80F2F310C5100F9C75B /* ExerciseLibraryView.swift */,
+				7434A8102F310C5100F9C75B /* HomeView.swift */,
+				7434A8112F310C5100F9C75B /* MainTabView.swift */,
+				7434A8122F310C5100F9C75B /* OnboardingView.swift */,
+				7434A8132F310C5100F9C75B /* SettingsView.swift */,
+				7434A8142F310C5100F9C75B /* SpaceBuilderView.swift */,
+				7434A8152F310C5100F9C75B /* SpaceLibraryView.swift */,
+				7434A8162F310C5100F9C75B /* TrainingHistoryView.swift */,
+				7434A8172F310C5100F9C75B /* TrainingProgramsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7434A8232F310C5100F9C75B /* 65CircuitWeaver */ = {
+			isa = PBXGroup;
+			children = (
+				7434A7F92F310C5100F9C75B /* Data */,
+				7434A7FB2F310C5100F9C75B /* Engine */,
+				7434A7FD2F310C5100F9C75B /* Extensions */,
+				7434A8042F310C5100F9C75B /* Models */,
+				7434A8062F310C5100F9C75B /* ViewModels */,
+				7434A8182F310C5100F9C75B /* Views */,
+				7434A8192F310C5100F9C75B /* AppDelegate.swift */,
+				7434A81A2F310C5100F9C75B /* Assets.xcassets */,
+				7434A81B2F310C5100F9C75B /* ContentView.swift */,
+				7434A81C2F310C5100F9C75B /* Info.plist */,
+				7434A81E2F310C5100F9C75B /* LaunchScreen.storyboard */,
+				7434A8202F310C5100F9C75B /* Main.storyboard */,
+				7434A8212F310C5100F9C75B /* SceneDelegate.swift */,
+				7434A8222F310C5100F9C75B /* ViewController.swift */,
+			);
+			path = 65CircuitWeaver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,9 +244,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				740292BA2F228B610027E363 /* 65CircuitWeaver */,
 			);
 			name = 65CircuitWeaver;
 			productName = 65CircuitWeaver;
@@ -135,6 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7434A8242F310C5100F9C75B /* Assets.xcassets in Resources */,
+				7434A8262F310C5100F9C75B /* LaunchScreen.storyboard in Resources */,
+				7434A8272F310C5100F9C75B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,10 +326,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7434A8282F310C5100F9C75B /* CircuitDataManager.swift in Sources */,
+				7434A8292F310C5100F9C75B /* CircuitDataModel.swift in Sources */,
+				7434A82A2F310C5100F9C75B /* CircuitEngine.swift in Sources */,
+				7434A82B2F310C5100F9C75B /* Color+CircuitWeaver.swift in Sources */,
+				7434A82C2F310C5100F9C75B /* Achievements.swift in Sources */,
+				7434A82D2F310C5100F9C75B /* CircuitModels.swift in Sources */,
+				7434A82E2F310C5100F9C75B /* ExerciseLibrary.swift in Sources */,
+				7434A82F2F310C5100F9C75B /* Station.swift in Sources */,
+				7434A8302F310C5100F9C75B /* TrainingHistory.swift in Sources */,
+				7434A8312F310C5100F9C75B /* TrainingProgram.swift in Sources */,
+				7434A8322F310C5100F9C75B /* CircuitWeaverViewModel.swift in Sources */,
+				7434A8332F310C5100F9C75B /* CheckLink.swift in Sources */,
+				7434A8342F310C5100F9C75B /* InternetViewController.swift in Sources */,
+				7434A8352F310C5100F9C75B /* LoaderViewController.swift in Sources */,
+				7434A8362F310C5100F9C75B /* AchievementsView.swift in Sources */,
+				7434A8372F310C5100F9C75B /* CircuitAnalysisView.swift in Sources */,
+				7434A8382F310C5100F9C75B /* CircuitExecutionView.swift in Sources */,
+				7434A8392F310C5100F9C75B /* CircuitWeaverView.swift in Sources */,
+				7434A83A2F310C5100F9C75B /* ExerciseLibraryView.swift in Sources */,
+				7434A83B2F310C5100F9C75B /* HomeView.swift in Sources */,
+				7434A83C2F310C5100F9C75B /* MainTabView.swift in Sources */,
+				7434A83D2F310C5100F9C75B /* OnboardingView.swift in Sources */,
+				7434A83E2F310C5100F9C75B /* SettingsView.swift in Sources */,
+				7434A83F2F310C5100F9C75B /* SpaceBuilderView.swift in Sources */,
+				7434A8402F310C5100F9C75B /* SpaceLibraryView.swift in Sources */,
+				7434A8412F310C5100F9C75B /* TrainingHistoryView.swift in Sources */,
+				7434A8422F310C5100F9C75B /* TrainingProgramsView.swift in Sources */,
+				7434A8432F310C5100F9C75B /* AppDelegate.swift in Sources */,
+				7434A8442F310C5100F9C75B /* ContentView.swift in Sources */,
+				7434A8452F310C5100F9C75B /* SceneDelegate.swift in Sources */,
+				7434A8462F310C5100F9C75B /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7434A81E2F310C5100F9C75B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7434A81D2F310C5100F9C75B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7434A8202F310C5100F9C75B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7434A81F2F310C5100F9C75B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7402929C2F228B310027E363 /* Debug */ = {
@@ -186,6 +392,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 65CircuitWeaver/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "XCircuit Weaver";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -197,7 +404,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-5CircuitWeaver";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kri.xc2rc93tw0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -223,6 +430,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 65CircuitWeaver/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "XCircuit Weaver";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -234,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-5CircuitWeaver";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kri.xc2rc93tw0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
