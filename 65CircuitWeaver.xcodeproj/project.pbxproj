@@ -21,9 +21,6 @@
 		7434A8302F310C5100F9C75B /* TrainingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8022F310C5100F9C75B /* TrainingHistory.swift */; };
 		7434A8312F310C5100F9C75B /* TrainingProgram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8032F310C5100F9C75B /* TrainingProgram.swift */; };
 		7434A8322F310C5100F9C75B /* CircuitWeaverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8052F310C5100F9C75B /* CircuitWeaverViewModel.swift */; };
-		7434A8332F310C5100F9C75B /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8072F310C5100F9C75B /* CheckLink.swift */; };
-		7434A8342F310C5100F9C75B /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8082F310C5100F9C75B /* InternetViewController.swift */; };
-		7434A8352F310C5100F9C75B /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A8092F310C5100F9C75B /* LoaderViewController.swift */; };
 		7434A8362F310C5100F9C75B /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A80B2F310C5100F9C75B /* AchievementsView.swift */; };
 		7434A8372F310C5100F9C75B /* CircuitAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A80C2F310C5100F9C75B /* CircuitAnalysisView.swift */; };
 		7434A8382F310C5100F9C75B /* CircuitExecutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A80D2F310C5100F9C75B /* CircuitExecutionView.swift */; };
@@ -56,9 +53,6 @@
 		7434A8022F310C5100F9C75B /* TrainingHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingHistory.swift; sourceTree = "<group>"; };
 		7434A8032F310C5100F9C75B /* TrainingProgram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingProgram.swift; sourceTree = "<group>"; };
 		7434A8052F310C5100F9C75B /* CircuitWeaverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitWeaverViewModel.swift; sourceTree = "<group>"; };
-		7434A8072F310C5100F9C75B /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
-		7434A8082F310C5100F9C75B /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
-		7434A8092F310C5100F9C75B /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
 		7434A80B2F310C5100F9C75B /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
 		7434A80C2F310C5100F9C75B /* CircuitAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitAnalysisView.swift; sourceTree = "<group>"; };
 		7434A80D2F310C5100F9C75B /* CircuitExecutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitExecutionView.swift; sourceTree = "<group>"; };
@@ -177,20 +171,9 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		7434A80A2F310C5100F9C75B /* LoadingView */ = {
-			isa = PBXGroup;
-			children = (
-				7434A8072F310C5100F9C75B /* CheckLink.swift */,
-				7434A8082F310C5100F9C75B /* InternetViewController.swift */,
-				7434A8092F310C5100F9C75B /* LoaderViewController.swift */,
-			);
-			path = LoadingView;
-			sourceTree = "<group>";
-		};
 		7434A8182F310C5100F9C75B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7434A80A2F310C5100F9C75B /* LoadingView */,
 				7434A80B2F310C5100F9C75B /* AchievementsView.swift */,
 				7434A80C2F310C5100F9C75B /* CircuitAnalysisView.swift */,
 				7434A80D2F310C5100F9C75B /* CircuitExecutionView.swift */,
@@ -337,9 +320,6 @@
 				7434A8302F310C5100F9C75B /* TrainingHistory.swift in Sources */,
 				7434A8312F310C5100F9C75B /* TrainingProgram.swift in Sources */,
 				7434A8322F310C5100F9C75B /* CircuitWeaverViewModel.swift in Sources */,
-				7434A8332F310C5100F9C75B /* CheckLink.swift in Sources */,
-				7434A8342F310C5100F9C75B /* InternetViewController.swift in Sources */,
-				7434A8352F310C5100F9C75B /* LoaderViewController.swift in Sources */,
 				7434A8362F310C5100F9C75B /* AchievementsView.swift in Sources */,
 				7434A8372F310C5100F9C75B /* CircuitAnalysisView.swift in Sources */,
 				7434A8382F310C5100F9C75B /* CircuitExecutionView.swift in Sources */,
@@ -389,10 +369,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 65CircuitWeaver/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "XCircuit Weaver";
+				INFOPLIST_KEY_CFBundleDisplayName = "Xelnuro Circuit Weaver";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -427,10 +407,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 65CircuitWeaver/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "XCircuit Weaver";
+				INFOPLIST_KEY_CFBundleDisplayName = "Xelnuro Circuit Weaver";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
